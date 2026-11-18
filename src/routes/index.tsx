@@ -5,7 +5,7 @@ import scubaTurtle from "@/assets/scuba-7059.jpg";
 import scubaSnake from "@/assets/scuba-7060.jpg";
 import scubaDiver from "@/assets/scuba-7061.jpg";
 import squashPhoto from "@/assets/squash.jpg";
-import paperThumb from "@/assets/paper-thumb.jpg";
+import paperThumb from "@/assets/Optimization Pathway Through Latent Space.png";
 import logoCs from "@/assets/logo-cs.png";
 import logoSprocket from "@/assets/logo-sprocket.png";
 import logoFrizzle from "@/assets/logo-frizzle.png";
@@ -41,7 +41,7 @@ const links = {
   email: "mailto:agoyal33@wisc.edu",
   cv: "/Resume.pdf",
   scholar: "https://scholar.google.com/citations?user=OcCyDyEAAAAJ&hl=en",
-  github: "https://github.com/AdiistheGoat",
+  github: "https://github.com/AdityaGoyal333",
   linkedin: "https://www.linkedin.com/in/aditya-goyal-aa0288213/",
   X: "https://x.com/adigoyal0807"
 };
@@ -131,7 +131,7 @@ const researchExperience: Experience[] = [
 
 const sweExperience: Experience[] = [
   {
-    org: "Frizzle",
+    org: "Frizzle(YC S25)",
     year: "June 2026 - September 2026",
     role: "Software Engineering Intern",
     desc: "Worked on agentic workflows and evals for AI-powered math grading at a Y Combinator-backed startup, owning features from workflow design through backend integration and implementation. Shipped three end-to-end grading pipelines: IGCSE rubric generation, scratch-paper grading, and IB paper grading.",
@@ -270,8 +270,8 @@ function Index() {
 
         <div className="lg:grid lg:grid-cols-[18rem_minmax(0,1fr)] lg:gap-16">
         {/* ---------- Sticky left rail ---------- */}
-        <aside className="mb-14 lg:mb-0">
-          <div className="lg:sticky lg:top-14">
+        <aside className="mb-14 lg:-mt-8 lg:mb-0">
+          <div className="profile-rail lg:sticky lg:top-6 lg:max-h-[calc(100dvh-3rem)] lg:overflow-y-auto">
             <img
               src={portraitPhoto}
               alt="Aditya Goyal"
@@ -386,9 +386,9 @@ function Index() {
                 >
                   <img
                     src={pub.thumb}
-                    alt={`Figure from ${pub.title}`}
-                    width={640}
-                    height={640}
+                    alt={`Illustration for ${pub.title}`}
+                    width={1254}
+                    height={1254}
                     loading="lazy"
                     className="h-28 w-28 shrink-0 rounded-md border border-border object-cover shadow-sm"
                   />

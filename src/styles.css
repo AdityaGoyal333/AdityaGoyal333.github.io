@@ -154,6 +154,13 @@
   }
 }
 
+@media (min-width: 64rem) {
+  .profile-rail > img {
+    width: clamp(8rem, calc(100dvh - 36rem), 16rem);
+    height: clamp(8rem, calc(100dvh - 36rem), 16rem);
+  }
+}
+
 /* Understated text link: inherit color, thin underline, ink-navy on hover. */
 @utility u-link {
   color: inherit;
