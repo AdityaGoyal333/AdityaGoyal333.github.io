@@ -332,7 +332,7 @@ function Index() {
             </p>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground">
               My research focus is on deep learning with applications in HealthCare and building effective data curation pipelines. My past work was on weight-space analysis to recover the training data distribution. 
-              Currently, I am working on NICU mortality forecasting using Chronos, video understanding for neonatal laryngoscopy, and effective context compaction policies.
+              Currently, I am working on zeroth order optimization and improving NICU mortality prediction.
               I am also broadly interested in efficient AI, particularly edge AI and PEFT methods.
             </p>
           </section>
@@ -515,9 +515,9 @@ function Index() {
                 <figcaption className="mt-4 border-t border-border pt-4">
                   <p className="font-serif text-lg font-medium text-foreground">Scuba Diving</p>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                    PADI Open Water diver, working my way toward Advanced and Rescue.
+                    PADI Open Water diver, working my way towards Advanced and Rescue.
                     I love scuba because it&rsquo;s one of the few places you can
-                    see wildlife truly in the wild — even if that means being two
+                    see wildlife truly in the wild, even if that means being two
                     metres from a sea snake. Only complaint: the water&rsquo;s
                     salty.
                   </p>
@@ -537,7 +537,7 @@ function Index() {
                   <p className="font-serif text-lg font-medium text-foreground">Squash</p>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                     Not the vegetable. The actual sport. There isn&rsquo;t a game
-                    I enjoy more — or another I can play for three hours
+                    I enjoy more or another I can play for three hours
                     straight. Fast, intense, and constantly making you think on
                     the spot.
                   </p>
