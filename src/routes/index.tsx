@@ -335,9 +335,9 @@ function Index() {
               Department of Physics.
             </p>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground">
-              My research focus is on deep learning with applications in HealthCare and building effective data curation pipelines. My past work was on weight-space analysis to recover the training data distribution. 
-              Currently, I am working on zeroth order optimization and improving NICU mortality prediction.
-              I am also broadly interested in efficient AI, particularly edge AI and PEFT methods.
+                My research focus is on efficient AI with an interest in health care AI as well. My past work was on weight-space
+                analysis to recover the training data distribution. Currently, I am working on zeroth order optimization and on
+                improving NICU mortality prediction.
             </p>
           </section>
 
