@@ -88,7 +88,11 @@ const projects = [
 const publications = [
   {
     title: "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
-    authors: "Tzu-Heng Huang, Aditya Goyal, John Cooper, Frederic Sala",
+    authors: (
+      <>
+        Tzu-Heng Huang*, <strong>Aditya Goyal*</strong>, John Cooper, Frederic Sala
+      </>
+    ),
     venue: "ICML 2026 · Weight Symmetries Workshop",
     thumb: paperThumb,
     links: [
@@ -114,16 +118,16 @@ const researchExperience: Experience[] = [
   {
     org: "Yin Li Lab",
     year: "Dec 2025–present",
-    role: "ML Research Engineering Intern",
-    desc: "Mortality forecasting on sparse, irregular NICU recordings and video understanding for neonatal laryngoscopy",
+    role: "UG ML Researcher",
+    desc: "Improving NICU mortality prediction over traditional statistical approaches by Developing a Transformer-based framework that leverages pre-trained time-series encoder representations.",
     reflection: "",
     logo: logoCs, // Downloads: "uw madison comptuer sciens.png" — CS dept mark, no lab-specific file
   },
   {
     org: "Sprocket Lab",
     year: "July 2025–present",
-    role: "ML Research Engineering Intern",
-    desc: "Researched using gradient signals to recover training data distributions from model parameters, leading to a first-author paper at an ICML 2026 workshop. Currently studying effective context compaction policies for long-context AI agents.",
+    role: "UG ML Researcher",
+    desc: "Co-developed WARP, a method that uses gradient signals to recover training data distributions from model weights, leading to a first-author paper at the ICML 2026 weight symmetries workshop.\n\nCurrently leading research on reducing variance in zeroth-order optimization by better aligning the perturbation subspace with the true gradient.",
     reflection: "",
     logo: logoSprocket,
   },
@@ -243,7 +247,7 @@ function ExperienceList({ items }: { items: Experience[] }) {
               <span className="font-mono text-sm text-muted-foreground">{e.year}</span>
             </div>
             <p className="mt-1 text-sm text-muted-foreground">{e.role}</p>
-            <p className="mt-2 text-sm leading-relaxed text-foreground">{e.desc}</p>
+            <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-foreground">{e.desc}</p>
             <p className="mt-3 border-l-2 border-primary/30 pl-4 font-serif text-sm italic leading-relaxed text-muted-foreground">
               {e.reflection}
             </p>
